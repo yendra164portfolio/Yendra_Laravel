@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(255, 0, 0);
+}
+/* style.css */
+
+/* Body */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar .nav-link {
+    color: #d1d1d1 !important;
+}
+
+.navbar .nav-link.active {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Container Content */
+.container {
+    max-width: 900px;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* List Group Custom */
+.list-group-item {
+    text-align: center;
+}
+
+/* Gallery Image */
+.gallery-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
